@@ -11,7 +11,7 @@ contract Contract {
         console.log("constructing contract");
     }
 
-    function wave() public {
+    function wave() public { // public keyword -> function will be available to be called on the blockchain
         totalWaves += 1; 
         console.log("%s has waved!", msg.sender); // msg.sender is the wallet address of the person who called the function
     }
