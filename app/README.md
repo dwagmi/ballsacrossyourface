@@ -25,7 +25,7 @@ In one terminal:
 ```shell
 npx hardhat node
 ```
-In another terminal: 
+In another terminal (any script can be chosen, just need to specify the --network arg): 
 ```shell
 npx hardhat run scripts/deploy.js --network localhost
 ```
