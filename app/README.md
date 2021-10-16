@@ -20,7 +20,7 @@ Ensure if in VS Code to open the app folder to avoid linting errors
 npx hardhat run scripts/run.js
 ```
 
-# Persist local ethereum network and deploy 
+# Deploy Locally 
 In one terminal: 
 ```shell
 npx hardhat node
@@ -28,4 +28,16 @@ npx hardhat node
 In another terminal (any script can be chosen, just need to specify the --network arg): 
 ```shell
 npx hardhat run scripts/deploy.js --network localhost
+```
+
+# React front end
+https://replit.com/@dwagmi/waveportal-baseline-student#.replit 
+
+# Deploy to Rinkeby testnet 
+- Get API URL from https://www.alchemy.com/
+- Add network to hardhat.config.js
+- Add API URL & Rinkeby private key to app/.env (`npm install dotenv`)
+- Run: 
+```shell
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
