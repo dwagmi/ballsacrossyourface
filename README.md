@@ -8,7 +8,7 @@ The contract is currently deployed on the Rinkeby testnet.
 
 There is a 50% chance that a 'waver' is rewarded with some Rinkeby test ETH. 
 
-This app was built by following Buildspace's Solidity/Ethereum course - https://buildspace.so/solidity, with some personal adjustments later on. 
+This app was built by following Buildspace's Solidity/Ethereum course - https://buildspace.so/solidity.
 
 ## Front end 
 - React 
